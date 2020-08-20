@@ -11,6 +11,10 @@ const Exercises = () => {
       <li key="ex02">
         <Link to="/exercise02">Exercício 02</Link>
       </li>
+
+      <li key="ex03">
+        <Link to="/exercise03">Exercício 03</Link>
+      </li>
     </ul>
   );
 };
