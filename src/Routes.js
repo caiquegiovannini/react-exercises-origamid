@@ -8,6 +8,7 @@ import Ex03 from './exercises/Ex03/Ex03';
 import Ex04 from './exercises/Ex04/Ex04';
 import Ex05 from './exercises/Ex05/Ex05';
 import Ex06 from './exercises/Ex06/Ex06';
+import Ex07 from './exercises/Ex07/Ex07';
 
 const Routes = () => {
   return (
@@ -20,6 +21,7 @@ const Routes = () => {
         <Route path="/exercise04" component={Ex04} />
         <Route path="/exercise05" component={Ex05} />
         <Route path="/exercise06" component={Ex06} />
+        <Route path="/exercise07" component={Ex07} />
       </Switch>
     </BrowserRouter>
   );
