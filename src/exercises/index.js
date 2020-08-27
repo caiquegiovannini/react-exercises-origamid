@@ -28,8 +28,12 @@ const Exercises = () => {
         <Link to="/exercise06">Exercício 06 - useContext</Link>
       </li>
 
-      <li key="ex06">
+      <li key="ex07">
         <Link to="/exercise07">Exercício 07 - Input</Link>
+      </li>
+
+      <li key="ex08">
+        <Link to="/exercise08">Exercício 08 - Checkbox</Link>
       </li>
     </ul>
   );
