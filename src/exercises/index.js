@@ -35,6 +35,10 @@ const Exercises = () => {
       <li key="ex08">
         <Link to="/exercise08">Exercício 08 - Checkbox</Link>
       </li>
+
+      <li key="ex09">
+        <Link to="/exercise09">Exercício 09 - Formulário</Link>
+      </li>
     </ul>
   );
 };
