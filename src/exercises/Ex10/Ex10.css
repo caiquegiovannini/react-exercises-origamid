@@ -1,0 +1,43 @@
+.ex10 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.animeLeft {
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeLeft 0.3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+.loading {
+  margin-top: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 10px solid #ccc;
+  border-right-color: transparent;
+  animation: loading linear 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -11,6 +11,7 @@ import Ex06 from './exercises/Ex06/Ex06';
 import Ex07 from './exercises/Ex07/Ex07';
 import Ex08 from './exercises/Ex08/Ex08';
 import Ex09 from './exercises/Ex09/Ex09';
+import Ex10 from './exercises/Ex10/Ex10';
 import Slide from './exercises/Slide/Slide';
 
 const Routes = () => {
@@ -28,6 +29,7 @@ const Routes = () => {
         <Route path="/exercise08" component={Ex08} />
         <Route path="/exercise09" component={Ex09} />
         <Route path="/slide" component={Slide} />
+        <Route path="/exercise10" component={Ex10} />
       </Switch>
     </BrowserRouter>
   );
